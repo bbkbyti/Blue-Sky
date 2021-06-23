@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2021/01/10/blue-mountains-wallpaper.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgba(79,79,79,0.4);
+    color: rgb(1, 74, 113);
+    display: flex;
+    justify-content: center;
+}
+
+#name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#loc {
+    background-color: rgb(246, 246, 246);
+    margin-bottom: 10px;
+    padding: 5px 0 5px 0;
+}
+
+#search{
+    background-color: rgba(79,79,79,0.4);
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: x-small;
+}
