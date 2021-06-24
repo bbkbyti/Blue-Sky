@@ -17,38 +17,26 @@ header {
     display: flex;
     justify-content: center;
 }
-
-#name {
-    padding-top: 20px;
+nav{
+    display: flex;
+    
+    background-color: rgb(1, 74, 113);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
     padding-bottom: 20px;
 }
 
-#icon {
-    width :15vh;
-    margin-top: -5px;
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;   
 }
 
-#city {
-    margin: -20px 0 30px 0;
-    font-size: 300%;
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
-#country {
-    margin: -30px 0 10px 0
-}
-
-.temps {
-    margin: 20px 0 40px 0;
-
-}
-#f {
-    font-size: 250%;
-}
-
-#c { 
-    
-    font-size: 200%
-}
 
 
 
@@ -72,12 +60,15 @@ header {
 
 #search {
     background-color: rgb(1, 74, 113, 0.8);
-    /* background-color: rgba(79,79,79,0.2); */
-    /* margin-top: 5px; */
     color: rgba(235, 235, 235);
     padding: 5px 10px 5px 10px;
     font-size: x-small;
     border-radius: 23px;
+}
+
+#name {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #show-data {
@@ -86,7 +77,53 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5px 0 185px 0
+    
+}
+#current{
+    padding-bottom:  10px;
+
+}
+
+
+#icon {
+    background-color: rgba(79,79,79,0.5);
+    border-radius: 50px;
+    width :15vh;
+    margin-top: -5px;
+}
+
+#city {
+    margin: -30px 0 30px 0;
+    font-size: 300%;
+}
+
+#country {
+    margin: -30px 0 10px 0
+}
+
+#state {
+    margin: -10px 0 10px 0;
+    font-size: 150%
+}
+
+.temps {
+    margin: 3px 0 60px 0;
+    background-color:rgba(79,79,79,0.5) ;
+    border-radius: 50px;
+
+}
+#f {
+    font-size: 250%;
+}
+
+#c { 
+    
+    font-size: 200%
+}
+
+.pre-hum{
+    margin-top: -50px;
+    margin-bottom: 20px
 }
 
 .footer {
