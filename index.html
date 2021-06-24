@@ -7,6 +7,10 @@
     <script defer src="./script.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    
     <title>Blue Sky Weather Website</title>
 </head>
 <body>
@@ -16,14 +20,20 @@
     <div>
         <form class="form">
             <label for="location"></label>
-            <input type="text" id="loc" placeholder="Enter City or Country">
+            <input type="text" id="loc" placeholder="City or Country">
             <button type="submit" id="search">search</button>
         </form>
     </div>
     
-    <div 
-    id="show-data">
- </div>
+    <div id="show-data"></div>
+ <footer class='footer'>
+    <div class='git-link'>
+      <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png" alt="Github icon">
+      <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png" alt="LinkedIn icon"><br>
+      <!-- <h6 id="fp">© Babak Bayati 2021</h6> -->
+    </div>
+
+    </footer>
     
-</body>
+</body> 
 </html>
