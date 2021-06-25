@@ -20,7 +20,7 @@ async function locData(location) {
         }
     
 }
-locData('ny')
+// locData('ny')
 
 
 function showData(data){
@@ -38,7 +38,7 @@ function showData(data){
 
     let locData = `
     
-    <div id='upper'>
+    <div>
       <h4 id='current'>${data.current.condition.text}</h4>
       <img id='icon' src="${newIcon}" alt="">
     </div>
@@ -47,18 +47,18 @@ function showData(data){
     
     <h4 id='country'>${data.location.country}</h4>
     <p id='state'>${usStates}</p>
+    <p class='date-time'>date & time<br/>${data.location.localtime}</p>
     <div class='temps'>
       <p id='f'>${data.current.temp_f} °F</p>
       <p id='c'>${data.current.temp_c} °C</p>
     </div>
 
     <div class='pre-hum'>
-      <p>precipitation:${data.current.precip_in}%</p>
-      <p id='humidity'>humidity: ${data.current.humidity}%</p>
+      <p id='prec'>precipitation<br />${data.current.precip_in}%</p>
+      <p id='humidity'>humidity<br /> ${data.current.humidity}%</p>
     </div>
-    <p>wind (mph): ${data.current.wind_mph} mph</p>
-    <p>wind (kph): ${data.current.wind_kph} kph</p>
-    <p>date and local time: ${data.location.localtime}</p>
+    
+      <p class='wind'> wind<br/> ${data.current.wind_mph} mph <br/>${data.current.wind_kph} kph </p>
     
     `
     dataContainer.insertAdjacentHTML('beforeend', locData)

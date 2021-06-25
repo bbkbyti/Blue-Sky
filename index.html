@@ -14,19 +14,21 @@
     <title>Blue Sky Weather Website</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#name"></a>Home</li>
-            <li><a href="https://climate.nasa.gov/resources/global-warming-vs-climate-change/" target="_blank">Climate Change</a></li>
-            <li><a href="https://www.weatherapi.com/" target="_blank">Source</a></li>
+    <div class="nav-bar">
+      <nav>
+          <ul>
+              <li><a href=""></a>About</li>
+              <li><a href="https://climate.nasa.gov/resources/global-warming-vs-climate-change/" target="_blank">Climate Change</a></li>
+              <li><a href="https://www.weatherapi.com/" target="_blank">Source</a></li>
             
-        </ul>
-    </nav>
+          </ul>
+      </nav>
+    </div>
     <header>
-        <h1 id="name">Blue Sky</h1>
+        <p id="name">Blue Sky</p>
     </header>
-    <div>
-        <form class="form">
+    <div class='form'>
+        <form>
             <label for="location"></label>
             <input type="text" id="loc" placeholder="City or Country">
             <button type="submit" id="search">search</button>
@@ -34,13 +36,10 @@
     </div>
     
     <div id="show-data"></div>
- <footer class='footer'>
-    <div class='git-link'>
-      <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png" alt="Github icon">
-      <img src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png" alt="LinkedIn icon"><br>
-      
-    </div>
-
+ <footer>
+      <img class="git-link" src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png" alt="Github icon">
+      <img class="git-link" src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png" alt="LinkedIn icon">
+       <p class="fp">© Babak Bayati 2021</p>    
     </footer>
     
 </body> 
