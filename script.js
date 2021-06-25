@@ -20,7 +20,7 @@ async function locData(location) {
         }
     
 }
-// locData('ny')
+// locData('balikesir')
 
 
 function showData(data){
