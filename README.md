@@ -2,7 +2,7 @@
 
 # Blue Sky Weather Website
 
- deployed URL.
+ deployed URL : https://bbkbyti.github.io/Blue-Sky/
 
 ## Project Description
 
@@ -103,26 +103,34 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML Structure | H | 3hrs |  |  |
-| CSS Structure | H | 3hrs |   |  |
-| Pseudocode | H | 3hrs | | | |
-| Async Function for API Calls| H | 3.5hrs | | | | |
-| Attach an EventListener to log user input(location) | H | 3.5hrs | | | |
-| CSS styling for current size and also for different screen sizes | H | 3.5hrs | | | |
-| Adding Form| H | 3.5hrs| 3.5hrs | 3.5hrs |
-| Function to remove the user input after search submission | H | 3hrs | | | |
-| Adding day/night image | H | 1.5hrs| | | |
-| Check to see MVP requirements are met | H | 2.5hrs | | | | |
-| Total | H | 30hrs| hrs | hrs |
+| HTML Structure: Adding Axios, CSS file, JavaScript file, title, new font | H | 3hrs | 2hrs | 2hrs |
+| Adding Navigation bar into HTML | L | 3hrs |3hrs |3hrs|
+| Adding Form into HTML| H | 3.5hrs| 3.5hrs | 3.5hrs |
+| Adding footer to the HTML: 2 images and a text | H | 3hrs |3hrs |3hrs|
+| CSS Structure | H | 3hrs | 3hrs| 3hrs|
+| Async Function for API Calls| H | 3.5hrs | 4hrs| 4hrs| 4hrs| 
+| Function to append returned data from API to the HTML using AdjacentHTML in JavaScript | H | 3hrs| 5hrs | 5hrs|
+| Attach an EventListener to log user input(location) | H | 3.5hrs |4hrs | 4hrs| 
+| Function to remove the user input after the search  | H | 3hrs |3hrs | 3hrs| 
+| Styling contents of the page and the returned data using flex feature of CSS | H | 3hrs | 6hrs|6hrs | 
+| Adding media query for when screen gets larger than 500px  | H | 3.5hrs |3hrs| 3hrs| 
+| Adding day/night icons to tha data card. | H | 1.5hrs| 2hrs| 2hrs|
+| Check to see MVP requirements are met | H | 2.5hrs |2hrs|2hrs|
+| Total | H | 39hrs| 43.5hrs | 43.5hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+let NightOrDayIMG = ""
+  if (data.current.is_day === 0) {
+    NightOrDayIMG = "icons8-moon-symbol-30 (1).png"
+  }
+ else {
+   NightOrDayIMG = "icons8-sun-30.png"
+   }
+    // The result of this if statement is that if there is day time at the user seached location a little sun icon will be appeared with other data and if there is night, a moon icon will be shown.
 ```
 
 ## Change Log
