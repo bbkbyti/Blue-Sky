@@ -103,11 +103,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML Structure | H | 3hrs |  |  |
-| CSS Structure | H | 3hrs |   |  |
-| Pseudocode | H | 3hrs | | | |
+| HTML Structure: Adding Axios, CSS file, JavaScript file, title, new font | H | 3hrs |  |  |
+| Adding Navigation bar into HTML | L | 3hrs | | | |
 | Adding Form into HTML| H | 3.5hrs| 3.5hrs | 3.5hrs |
+| Adding footer to the HTML: 2 images and a text | H | 3hrs | | | |
+| CSS Structure | H | 3hrs | | | |
+| Pseudocode | H | 3hrs | | | |
 | Async Function for API Calls| H | 3.5hrs | | | | |
+| Function to append returned data from API to the HTML using AdjacentHTML in JavaScript | H | | 3hrs | | | |
 | Attach an EventListener to log user input(location) | H | 3.5hrs | | | |
 | Function to remove the user input after the search  | H | 3hrs | | | 
 | Styling contents of the page and the returned data using flex feature of CSS | H | 3hrs | | | |
