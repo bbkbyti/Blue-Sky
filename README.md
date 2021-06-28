@@ -2,7 +2,7 @@
 
 # Blue Sky Weather Website
 
- deployed URL. file:///Users/bbkbyti/General_Assembly/Penguins/Unit_1/week_3/project-1/Blue-Sky/index.html
+ deployed URL.
 
 ## Project Description
 
