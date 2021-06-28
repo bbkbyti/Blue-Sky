@@ -106,16 +106,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | HTML Structure: Adding Axios, CSS file, JavaScript file, title, new font | H | 3hrs | 2hrs | 2hrs |
 | Adding Navigation bar into HTML | L | 3hrs |3hrs |3hrs|
 | Adding Form into HTML| H | 3.5hrs| 3.5hrs | 3.5hrs |
-| Adding footer to the HTML: 2 images and a text | H | 3hrs |3hrs |
+| Adding footer to the HTML: 2 images and a text | H | 3hrs |3hrs |3hrs|
 | CSS Structure | H | 3hrs | 3hrs| 3hrs|
-| Async Function for API Calls| H | 3.5hrs | | | | |
-| Function to append returned data from API to the HTML using AdjacentHTML in JavaScript | H | 3hrs|  | | | |
-| Attach an EventListener to log user input(location) | H | 3.5hrs | | | |
-| Function to remove the user input after the search  | H | 3hrs | | | 
-| Styling contents of the page and the returned data using flex feature of CSS | H | 3hrs | | | |
-| Adding media query for when screen gets larger than 500px  | H | 3.5hrs | | | |
-| Adding day/night icons to tha data card. | H | 1.5hrs| | | |
-| Check to see MVP requirements are met | H | 2.5hrs | | | | |
+| Async Function for API Calls| H | 3.5hrs | 4hrs| 4hrs| 4hrs| 
+| Function to append returned data from API to the HTML using AdjacentHTML in JavaScript | H | 3hrs| 5hrs | 5hrs|
+| Attach an EventListener to log user input(location) | H | 3.5hrs |4hrs | 4hrs| 
+| Function to remove the user input after the search  | H | 3hrs |3hrs | 3hrs| 
+| Styling contents of the page and the returned data using flex feature of CSS | H | 3hrs | 6hrs|6hrs | 
+| Adding media query for when screen gets larger than 500px  | H | 3.5hrs |3hrs| 3hrs| 
+| Adding day/night icons to tha data card. | H | 1.5hrs| 2hrs| 2hrs|
+| Check to see MVP requirements are met | H | 2.5hrs |2hrs|2hrs|
 | Total | H | 30hrs| hrs | hrs |
 
 ## Code Snippet
