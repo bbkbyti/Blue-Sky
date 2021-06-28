@@ -116,7 +116,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding media query for when screen gets larger than 500px  | H | 3.5hrs |3hrs| 3hrs| 
 | Adding day/night icons to tha data card. | H | 1.5hrs| 2hrs| 2hrs|
 | Check to see MVP requirements are met | H | 2.5hrs |2hrs|2hrs|
-| Total | H | 30hrs| 43.5hrs | 43.5hrs |
+| Total | H | 39hrs| 43.5hrs | 43.5hrs |
 
 ## Code Snippet
 
