@@ -134,4 +134,4 @@ let NightOrDayIMG = ""
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ I changed the background color of the footer when the page goes larger than 500px, and also the background of the data card will have a specific size and does not take all the width of the page. I also eliminated the 'Home' item from the navigation bar and the reason behind that is that everything appear on one page and there is no need for a clickalbe 'Home' to take users to the main page.
