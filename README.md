@@ -106,12 +106,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | HTML Structure | H | 3hrs |  |  |
 | CSS Structure | H | 3hrs |   |  |
 | Pseudocode | H | 3hrs | | | |
+| Adding Form into HTML| H | 3.5hrs| 3.5hrs | 3.5hrs |
 | Async Function for API Calls| H | 3.5hrs | | | | |
 | Attach an EventListener to log user input(location) | H | 3.5hrs | | | |
-| CSS styling for current size and also for different screen sizes | H | 3.5hrs | | | |
-| Adding Form| H | 3.5hrs| 3.5hrs | 3.5hrs |
-| Function to remove the user input after search submission | H | 3hrs | | | |
-| Adding day/night image | H | 1.5hrs| | | |
+| Function to remove the user input after the search  | H | 3hrs | | | 
+| Styling contents of the page and the returned data using flex feature of CSS | H | 3hrs | | | |
+| Adding media query for when screen gets larger than 500px  | H | 3.5hrs | | | |
+| Adding day/night icons to tha data card. | H | 1.5hrs| | | |
 | Check to see MVP requirements are met | H | 2.5hrs | | | | |
 | Total | H | 30hrs| hrs | hrs |
 
