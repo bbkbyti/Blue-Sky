@@ -31,7 +31,7 @@ function showData(data) {
     usStates = usStates.replace(usStates, "")
   }
   let NightOrDayIMG = ""
-  if (data.current.is_day == 0) {
+  if (data.current.is_day === 0) {
     NightOrDayIMG = "icons8-moon-symbol-30 (1).png"
   }
  else {
@@ -39,7 +39,6 @@ function showData(data) {
    }
 
   let locData = `
-
     <div>
     <img class='day-night' src="${NightOrDayIMG}">
       <h4 id='current'>${data.current.condition.text}</h4>
@@ -69,7 +68,6 @@ const form = document.querySelector('.form')
 form.addEventListener('submit', (e) => {
   e.preventDefault()
   const inputValue = document.querySelector('#loc').value
-  // console.log(inputValue)
   removeData()
   locData(inputValue)
   document.querySelector('#loc').value = ''
