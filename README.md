@@ -116,16 +116,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding media query for when screen gets larger than 500px  | H | 3.5hrs |3hrs| 3hrs| 
 | Adding day/night icons to tha data card. | H | 1.5hrs| 2hrs| 2hrs|
 | Check to see MVP requirements are met | H | 2.5hrs |2hrs|2hrs|
-| Total | H | 30hrs| hrs | hrs |
+| Total | H | 30hrs| 43.5hrs | 43.5hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+let NightOrDayIMG = ""
+  if (data.current.is_day === 0) {
+    NightOrDayIMG = "icons8-moon-symbol-30 (1).png"
+  }
+ else {
+   NightOrDayIMG = "icons8-sun-30.png"
+   }
+    // The result of this if statement is that if there is day time at the user seached location a little sun icon will be appeared with other data and if there is night, a moon icon will be shown.
 ```
 
 ## Change Log
