@@ -84,9 +84,9 @@ https://wireframe.cc/lSJ1TR
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Complete
-|June 23| Pseudocode / actual code | Incomplete
-|June 24| Initial Clickable Model  | Incomplete
-|June 25| MVP | Incomplete
+|June 23| Pseudocode / actual code | complete
+|June 24| Initial Clickable Model  | complete
+|June 25| MVP | complete
 |June 28| Presentations | Incomplete
 
 ## Priority Matrix
