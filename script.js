@@ -1,15 +1,15 @@
-// api website and key
+
 const DOMAIN = "https://api.weatherapi.com/v1/current.json?key="
 const API_KEY = "99f526f6d08d401482d133835212206"
 const BASE_URL = `${DOMAIN}${API_KEY}&q=`
 const dataContainer = document.querySelector('#show-data')
-// make a request from API 
+
+
 async function locData(location) {
   const url = `${BASE_URL}${location}`
   try {
     const res = await axios.get(url)
     const data = res.data
-    console.log(data)
     showData(data)
     return data
 
@@ -20,12 +20,10 @@ async function locData(location) {
 }
 
 
-
 function showData(data) {
 
   let conditionIcon = `${data.current.condition.icon}`
   let newIcon = conditionIcon.replace('//', 'https://')
-  git 
   let usStates = ""
   if (data.location.country === "United States of America") {
     usStates = data.location.region
@@ -67,8 +65,6 @@ function showData(data) {
 
 
 
-// Dynamically search locations using HTML form with event listener
-
 const form = document.querySelector('.form')
 form.addEventListener('submit', (e) => {
   e.preventDefault()
@@ -79,7 +75,6 @@ form.addEventListener('submit', (e) => {
   document.querySelector('#loc').value = ''
 })
 
-// function to remove last search
 
 function removeData() {
   const dataCon = document.querySelector('#show-data')
