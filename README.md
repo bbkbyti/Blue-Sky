@@ -87,7 +87,7 @@ https://wireframe.cc/lSJ1TR
 |June 23| Pseudocode / actual code | complete
 |June 24| Initial Clickable Model  | complete
 |June 25| MVP | complete
-|June 28| Presentations | Incomplete
+|June 28| Presentations | complete
 
 ## Priority Matrix
 
