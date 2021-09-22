@@ -2,7 +2,7 @@
 
 # Blue Sky Weather Website
 
- deployed URL : https://bbkbyti.github.io/Blue-Sky/
+ [Blue Sky](https://bbkbyti.github.io/Blue-Sky/)
 
 ## Project Description
 
