@@ -2,14 +2,14 @@
 
 # Blue Sky Weather Website
 
- [Blue Sky](https://bbkbyti.github.io/Blue-Sky/)
+# [Blue Sky](https://bbkbyti.github.io/Blue-Sky/)
 
 ## Project Description
 
 A website that simply provides current information about the weather of a location. It also includes the name of the country of the searched location if it is a city and date and the local time as well.
 ## API and Data Sample
 
-https://www.weatherapi.com/
+[API](https://www.weatherapi.com/)
 
 Sample : 
 https://api.weatherapi.com/v1/current.json?key=25f100a5c9ee4976bd115634212106&q=London
