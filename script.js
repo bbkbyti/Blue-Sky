@@ -1,6 +1,6 @@
 
 const DOMAIN = "https://api.weatherapi.com/v1/current.json?key="
-const API_KEY = "99f526f6d08d401482d133835212206"
+const API_KEY = "885def599a78477b91b44300212209"
 const BASE_URL = `${DOMAIN}${API_KEY}&q=`
 const dataContainer = document.querySelector('#show-data')
 

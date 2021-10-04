@@ -217,7 +217,7 @@ a{
 .day-night{
 }
 
-@media  screen and (min-width: 500px) {
+@media  screen and (min-width: 600px) {
     body{
         display: flex;
         justify-content: center;
