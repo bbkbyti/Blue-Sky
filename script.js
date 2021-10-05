@@ -1,8 +1,8 @@
 
-const DOMAIN = "https://api.weatherapi.com/v1/current.json?key="
-const API_KEY = "885def599a78477b91b44300212209"
-const BASE_URL = `${DOMAIN}${API_KEY}&q=`
-const dataContainer = document.querySelector('#show-data')
+const DOMAIN = "https://api.weatherapi.com/v1/current.json?key=";
+const API_KEY = "885def599a78477b91b44300212209";
+const BASE_URL = `${DOMAIN}${API_KEY}&q=`;
+const dataContainer = document.querySelector('#show-data');
 
 
 async function locData(location) {

@@ -2,14 +2,14 @@
 
 # Blue Sky Weather Website
 
- deployed URL : https://bbkbyti.github.io/Blue-Sky/
+# [Blue Sky](https://bbkbyti.github.io/Blue-Sky/)
 
 ## Project Description
 
 A website that simply provides current information about the weather of a location. It also includes the name of the country of the searched location if it is a city and date and the local time as well.
 ## API and Data Sample
 
-https://www.weatherapi.com/
+[API](https://www.weatherapi.com/)
 
 Sample : 
 https://api.weatherapi.com/v1/current.json?key=25f100a5c9ee4976bd115634212106&q=London
@@ -84,10 +84,10 @@ https://wireframe.cc/lSJ1TR
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Complete
-|June 23| Pseudocode / actual code | complete
-|June 24| Initial Clickable Model  | complete
-|June 25| MVP | complete
-|June 28| Presentations | Incomplete
+|June 23| Pseudocode / actual code | Complete
+|June 24| Initial Clickable Model  | Complete
+|June 25| MVP | Complete
+|June 28| Presentations | Complete
 
 ## Priority Matrix
 
@@ -134,4 +134,4 @@ let NightOrDayIMG = ""
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ I changed the background color of the footer when the page goes larger than 500px, and also the background of the data card will have a specific size and does not take all the width of the page. I also eliminated the 'Home' item from the navigation bar and the reason behind that is that everything appear on one page and there is no need for a clickalbe 'Home' to take users to the main page.
